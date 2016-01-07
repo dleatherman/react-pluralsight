@@ -29050,10 +29050,10 @@ var Header = React.createClass({displayName: "Header",
   render: function() {
     return (
       React.createElement("nav", {className: "navbar navbar-default navbar-static-top"}, 
-        React.createElement("a", {className: "navbar-brand", href: "/"}, "React Pluralsight"), 
+        React.createElement("a", {className: "navbar-brand", href: "/#"}, "React Pluralsight"), 
         React.createElement("ul", {className: "nav navbar-nav"}, 
           React.createElement("li", null, 
-            React.createElement("a", {href: "/"}, "Home")
+            React.createElement("a", {href: "/#"}, "Home")
           ), 
           React.createElement("li", null, 
             React.createElement("a", {href: "/#about"}, "About")
